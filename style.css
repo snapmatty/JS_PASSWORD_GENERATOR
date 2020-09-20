@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500&family=Roboto&display=swap");
+
+* {
+
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #32322C;
+	color: white;
+	font-family: 'Noto Sans SC', sans-serif;
+	margin 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+
+}
+
+.pw-container{
+
+	background-color: #4C6085;
+	min-width: 550px;
+	min-height: 330px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.pw-header{
+
+	padding:1rem;
+
+}
+
+.pw{
+	background-color: #647BA6;
+	height: 70px;
+	width: 100%;
+	align-items: center;
+	display: flex;
+	position: relative;
+	font-size: 2rem;
+	overflow:auto;
+	
+}
+
+.pw button{
+	background-color: #39A0ED;
+	border:none;
+	color: white;
+	padding: 0.5rem 0.5rem;
+	position:absolute;
+	right:0;
+	transform: translate(0%,-62%);
+	opacity: 0;
+	transition: opacity 0.15s ease;
+	font-weight: bold;
+	cursor:pointer;
+
+}
+.pw:hover button{
+	opacity:1;
+}
+
+.pw-body{
+	padding:0 1rem 1rem;
+
+
+}
+
+.form-control{
+	display: flex;
+	justify-content: space-between;
+	margin:0.5rem 0;
+	color:#eee; 
+
+}
+.generate{
+	display: block;
+	background-color: #39A0ED;
+	color: #4C6085;
+	border:none;
+	padding: 0.25rem 0.25rem;
+	width: 100%;
+	transition: color 0.2s ease;
+	transform: translateY(35%);
+	font-size: 1.5rem;
+	cursor:pointer;
+
+}
+.generate:hover{
+	color:white;
+	  
+}
